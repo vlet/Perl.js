@@ -1,0 +1,8 @@
+#!/usr/bin/perl
+use strict;
+use warnings;
+use PerlJS;
+
+my $perljs = PerlJS->new();
+$perljs->init();
+$perljs->evalfile($ARGV[0]);
